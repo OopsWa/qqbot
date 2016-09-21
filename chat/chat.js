@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 自动回复
  */
 var Log = require('log');
@@ -135,8 +135,8 @@ function chatGroup(msg) {
     return null;
   }
   console.log('account: ', msg.from_group.account);
-  if (msg.from_group.account != 380763517 // class
-      && msg.from_group.account != 41375 // acm
+  if (msg.from_group.account != 3919419001 // class
+      && msg.from_group.account != 569966923 //.net
       && msg.from_group.account != 2156851546// together
   ) {
     return null;
