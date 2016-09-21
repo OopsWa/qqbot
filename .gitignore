@@ -2,4 +2,3 @@
 node_modules
 *.log
 *.out
-chat/config.js
