@@ -137,7 +137,7 @@ function chatGroup(msg) {
   console.log('account: ', msg.from_group.account);
   if (msg.from_group.account != 3919419001 // class
       && msg.from_group.account != 569966923 //.net
-      && msg.from_group.account != 2156851546// together
+      && msg.from_group.account != 3813214755// together
   ) {
     return null;
   }
